@@ -31,14 +31,24 @@ class Song
   end
 
   def self.find_or_create_by_name
-    
+    @@all.find
   end
   
   def self.alphabetical
-    
+    @@all.sort_by do |name|
+      name
+    end
   end
   
-  def 
+  def self.new_from_filename(filename)
+    artist_name = filename.split(" - ")[0]
+    name = filename.split(" - ")[1][0..-5]
+    song = self.new
+    song.artist_name = artist_name
+    song
+  end
+  
+  
   def save
     self.class.all << self
   end
