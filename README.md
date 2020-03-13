@@ -1,4 +1,4 @@
-# Ruby Advanced Class Methods Lab
+o you have# Ruby Advanced Class Methods Lab
 
 ## Learning Goals
 
