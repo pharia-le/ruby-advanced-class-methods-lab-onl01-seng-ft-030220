@@ -50,7 +50,6 @@ class Song
     filename = self.new
     filename.name = name
     filename.artist_name = artist_name
-    binding.pry
   end
   
   
