@@ -30,6 +30,7 @@ class Song
     @@all.find { |song| name }
   end
 
+  def 
   def save
     self.class.all << self
   end
