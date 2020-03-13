@@ -53,6 +53,7 @@ class Song
     song
   end
   
+  def 
   
   def save
     self.class.all << self
